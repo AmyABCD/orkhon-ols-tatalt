@@ -50,8 +50,11 @@
       padding: 0;
     }
 
-    body {
+    body, button, input, select, textarea {
       font-family: 'MongolFont', 'Calibri', sans-serif;
+    }
+
+    body {
       background: radial-gradient(circle at 50% 20%, #E0F2FE 0%, #BAE6FD 50%, #7DD3FC 100%);
       min-height: 100vh;
       overflow-x: hidden;
@@ -59,8 +62,8 @@
       flex-direction: column;
     }
 
-    h1, h2, .game-main-title, .modal-title, .num-btn, .math-expression, .math-input-box, .step-target-display, .team-name, .game-rule-badge {
-      font-family: 'MongolHeading', 'MongolFont', sans-serif;
+    h1, h2, h3, .game-main-title, .modal-title, .num-btn, .math-expression, .math-input-box, .step-target-display, .team-name, .game-rule-badge, .preset-btn, .btn-big, .btn-mention, .btn-primary, #btn-start-game {
+      font-family: 'MongolHeading', 'MongolFont', sans-serif !important;
     }
 
     /* Institutional Header */
@@ -251,6 +254,7 @@
     }
 
     .preset-btn {
+      font-family: 'MongolHeading', 'MongolFont', sans-serif !important;
       padding: 6px 12px;
       border-radius: 12px;
       border: 2px solid #CBD5E1;
@@ -963,6 +967,7 @@
     }
 
     .btn-big {
+      font-family: 'MongolHeading', 'MongolFont', sans-serif !important;
       padding: 14px 36px;
       border-radius: 20px;
       font-size: 1.25rem;
